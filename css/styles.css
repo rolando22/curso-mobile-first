@@ -8,6 +8,8 @@
     --grey: #bababa;
     --off-white: #faf8f7;
     --just-white: #fff;
+    --font-DM-Sans: 'DM Sans', sans-serif;
+    --font-Inter: 'Inter', sans-serif;
 }
 
 * {
@@ -18,5 +20,5 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-DM-Sans);
 }

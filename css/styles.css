@@ -300,3 +300,56 @@ html {
     line-height: 1.8rem;
     color: #808080;
 }
+
+.products__cards-container .cards-container__card-detail {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black-plus);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.cards-container__card-detail .card-detail--icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards-container__card-detail .card-detail--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.cards-container__card-detail .card-detail--body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.cards-container__card-detail .card-detail--clock {
+    background-image: url('../assets/icons/clock.svg');
+}
+
+.cards-container__card-detail .card-detail--eye {
+    background-image: url('../assets/icons/eye.svg');
+}
+
+.cards-container__card-detail .card-detail--dollar {
+    background-image: url('../assets/icons/dollar-sign.svg');
+}
+
+.cards-container__card-detail .card-detail--check {
+    background-image: url('../assets/icons/check-circle.svg');
+}

@@ -1,0 +1,16 @@
+.exchange-container__tables {
+    overflow-x: hidden;
+}
+
+.products__cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main__plans-container .plans-container__slider {
+    overflow-x: hidden;
+}
+
+.footer {
+    gap: 50%;
+}

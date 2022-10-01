@@ -142,18 +142,32 @@ html {
 }
 
 .exchange-container__tables {
+    display: flex;
     width: 90%;
     min-width: 288px;
     max-width: 900px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
     margin: 0 auto;
+}
+
+.exchange-container__tables::-webkit-scrollbar {
+    background-color: var(--grey);
+    height: 3px;
+}
+.exchange-container__tables::-webkit-scrollbar-thumb {
+    background-color: var(--warm-black);
 }
 
 .tables__currency-table,
 .tables__fee-table {
     width: 70%;
-    min-width: 235px;
+    min-width: 280px;
     max-width: 500px;
     height: 360px;
+    scroll-snap-align: center;
     margin: 0 auto;
     font-family: var(--font-Inter);
 }
